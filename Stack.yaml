@@ -1,0 +1,56 @@
+#Intership Developement Stack . YAML FIlE
+Font-end:
+ ES6: ~
+ Plugin:
+  - Select2
+ AppKit: ~
+
+Back-end:
+ Node.js:
+  - Yarn
+  - NPM
+  - NVM
+  - Bower
+  - Express
+ Python:
+  - Flask
+ &Sequelize: ~
+
+Database:
+ PostgreSQL: ~
+ 'DB Server': ~
+ PgAdmin4: ~
+ ORM:
+  <<:*Sequelize
+
+Security:
+ Postman: ~
+ Jwt: ~
+ CSRF: ~
+ 'Burp Suite': ~
+
+Server:
+ Nginx: ~
+ PM2: ~
+ Docker: ~
+ Compose: ~
+
+Project Management:
+ Git: ~
+ GitHub: ~
+ GitKraken: ~
+ TortoiseGit: ~
+ Jenkins:
+  - 'Blue Ocean'
+
+Analysis:
+ Alteryx: ~
+ Tableau: ~
+
+IDE:
+ VS Code:
+  - koroFileHeader
+  - 'Git History'
+  - 'Code Runner'
+  - ESLint
+  - 'Debugger for Chrome'
