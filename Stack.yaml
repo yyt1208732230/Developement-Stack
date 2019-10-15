@@ -4,6 +4,8 @@ Font-end:
  Plugin:
   - Select2
  AppKit: ~
+ JavaScript: 
+  - underscore.js
 
 Back-end:
  Node.js:
